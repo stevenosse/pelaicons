@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:pelaicons/pelaicons.dart';
 
 void main(List<String> args) {
-  runApp(ExampleApp());
+  runApp(const ExampleApp());
 }
 
 class ExampleApp extends StatelessWidget {
@@ -22,18 +22,20 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       body: Center(
         child: Wrap(
           runSpacing: 10.0,
           spacing: 10.0,
-          children: const [
-            Icon(Pelaicons.activities_1_light_outline),
-            Icon(Pelaicons.headphone_light_outline),
-            Icon(Pelaicons.notification_1_svg_bold),
-            Icon(Pelaicons.palette_svg_bold),
-            Icon(Pelaicons.volume_down_2_light_outline),
-            Icon(Pelaicons.microphone_off_light_outline),
+          children: [
+            Icon(Pelaicons.activities1LightOutline),
+            Icon(Pelaicons.headphoneLightOutline),
+            Icon(Pelaicons.notification1Bold),
+            Icon(Pelaicons.notification2Bold),
+            Icon(Pelaicons.volumeDown2LightOutline),
+            Icon(Pelaicons.microphoneOffLightOutline),
+            Icon(Pelaicons.cart1Bold),
+            Icon(Pelaicons.cart2Bold),
           ],
         ),
       ),

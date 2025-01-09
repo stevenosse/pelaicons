@@ -30,7 +30,7 @@ import 'package:pelaicons/pelaicons.dart';
 ```
 
 ```dart
-const Icon(Pelaicons.activities_1_light_outline);
+const Icon(Pelaicons.activities1LightOutline);
 ```
 
 ## Additional information
@@ -41,5 +41,6 @@ const Icon(Pelaicons.activities_1_light_outline);
 - [Pelateam](https://dribbble.com/tags/pelateam)
 
 - Donate to developer  
-<a href="https://www.buymeacoffee.com/iamsnosse" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+  - [Buy me a coffee](https://www.buymeacoffee.com/iamsnosse)
+  - [GitHub Sponsors](https://github.com/sponsors/stevenosse)
   
